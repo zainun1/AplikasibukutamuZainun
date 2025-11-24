@@ -1,0 +1,104 @@
+bukutamu/
+│
+├── pages/
+│   ├── user/                      # Layout backend admin/user
+│   │   ├── header.php
+│   │   ├── navbar.php
+│   │   ├── sidebar.php
+│   │   └── footer.php
+│   │
+│   ├── tamu/                      # Layout backend tamu
+│   │   ├── header.php
+│   │   ├── navbar.php
+│   │   ├── sidebar.php
+│   │   └── footer.php
+│   │
+│   └── landing/                   # Layout frontend
+│       ├── header.php
+│       ├── navbar.php
+│       ├── footer.php
+│       ├── sidebar-left.php
+│       └── sidebar-right.php
+│
+├── views/
+│   │
+│   ├── otentikasiuser/            # Login user(admin/petugas)
+│   │   ├── login.php
+│   │   ├── register.php
+│   │   ├── logout.php
+│   │   └── proseslogin.php
+│   │
+│   ├── otentikasitamu/            # Login tamu
+│   │   ├── login.php
+│   │   ├── logout.php
+│   │   └── proseslogin.php
+│   │
+│   ├── user/
+│   │   ├── user/                  # CRUD tabel user
+│   │   │   ├── daftaruser.php
+│   │   │   ├── tambahuser.php
+│   │   │   ├── edituser.php
+│   │   │   └── prosesuser.php
+│   │   │
+│   │   ├── asal/                  # CRUD tabel asal
+│   │   │   ├── daftarasal.php
+│   │   │   ├── tambahasal.php
+│   │   │   ├── editasal.php
+│   │   │   └── prosesasal.php
+│   │   │
+│   │   ├── divisi/                # CRUD tabel divisi
+│   │   │   ├── daftardivisi.php
+│   │   │   ├── tambahdivisi.php
+│   │   │   ├── editdivisi.php
+│   │   │   └── prosesdivisi.php
+│   │   │
+│   │   ├── tamu/                  # CRUD tabel tamu
+│   │   │   ├── daftartamu.php
+│   │   │   ├── tambahtamu.php
+│   │   │   ├── edittamu.php
+│   │   │   └── prosestamu.php
+│   │   │
+│   │   ├── kunjungan/             # CRUD tabel kunjungan
+│   │   │   ├── daftarkunjungan.php
+│   │   │   ├── tambahkunjungan.php
+│   │   │   ├── editkunjungan.php
+│   │   │   └── proseskunjungan.php
+│   │   │
+│   │   ├── laporan/
+│   │   │   ├── laporan.php
+│   │   │   └── cetaklaporan.php
+│   │   │
+│   │   ├── dashboardadmin.php
+│   │   └── dashboardpetugas.php
+│   │
+│   ├── tamu/                      # Dashboard tamu login
+│   │   ├── dashboardtamu.php
+│   │   └── prosestamu.php
+│   │
+│   └── landing/                   # Halaman publik
+│       ├── home.php
+│       ├── detail.php
+│       ├── tentang.php
+│       ├── kontak.php
+│       └── 404.php
+│
+├── includes/
+│   ├── koneksi.php
+│   ├── konfig.php
+│   ├── ceksession.php
+│   ├── fungsiupload.php
+│   ├── fungsivalidasi.php
+│   └── htaccess/
+│
+├── uploads/
+│   ├── user/
+│   └── tamu/
+│
+├── database/
+│   └── bukutamu.sql
+│
+├── dashboard.php
+├── index.php
+├── .htaccess
+├── README.md
+└── struktur.txt
